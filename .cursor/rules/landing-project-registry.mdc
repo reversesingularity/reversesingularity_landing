@@ -1,0 +1,42 @@
+---
+description: Conventions for adding/editing projects on the Reverse Singularity landing page
+globs: src/data/projects.ts,scripts/sync-github-repos.mjs,scripts/validate-projects.mjs,scripts/scaffold-project.mjs
+alwaysApply: false
+---
+
+# Landing Project Registry
+
+## Single source of truth
+
+- **`src/data/projects.ts`** — `PROJECTS` array drives the grid and Hero live count.
+- Do **not** edit `ProjectsGrid.tsx` or `Hero.tsx` when adding a card (counts are dynamic).
+
+## Adding a live project
+
+1. Insert new entry **before** the `future` coming-soon placeholder.
+2. Required fields: `id`, `title`, `description`, `icon`, `accent`, `tags`, `url`, `status: 'live'`.
+3. `repoUrl` must be `https://github.com/reversesingularity/{slug}`.
+4. `id` must be unique; use kebab-case or short slug (e.g. `falcon9`, `exoplanet`).
+5. `accent`: one of `cyan | orange | green | amber | purple` — pick an unused color when possible.
+6. Subdomain URL: `https://{slug}.reversesingularity.com`.
+
+## GitHub sync
+
+Update `scripts/sync-github-repos.mjs`:
+
+- `LIVE_URLS['repo-slug']` — when GitHub homepage is missing
+- `LANDING_REPO_MAP[projectId]` — maps card id → repo slug
+
+Then run `node scripts/sync-github-repos.mjs`.
+
+## Validation before deploy
+
+```bash
+npm run validate:projects
+npm run build
+vercel --prod --yes
+```
+
+## Full playbook
+
+See `docs/ADDING-A-PROJECT.md` and skill `.cursor/skills/add-landing-project/SKILL.md`.

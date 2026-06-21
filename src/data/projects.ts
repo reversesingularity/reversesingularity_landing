@@ -2,9 +2,9 @@
  * ╔══════════════════════════════════════════════════════╗
  * ║           REVERSE SINGULARITY — PROJECT REGISTRY     ║
  * ╠══════════════════════════════════════════════════════╣
- * ║  To add a new project, copy the template below and   ║
- * ║  append it to the PROJECTS array. The card appears   ║
- * ║  automatically in the grid with correct styling.     ║
+ * ║  To add a new project, see docs/ADDING-A-PROJECT.md or run:     ║
+ * ║  node scripts/scaffold-project.mjs                              ║
+ * ║  Insert before the `future` entry in PROJECTS below.           ║
  * ╚══════════════════════════════════════════════════════╝
  *
  * Template:
@@ -17,6 +17,7 @@
  *   accent: 'cyan',                // 'cyan' | 'orange' | 'green' | 'amber' | 'purple'
  *   tags: ['React', 'Three.js'],   // tech stack chips
  *   url: 'https://x.reversesingularity.com', // omit for coming-soon
+ *   repoUrl: 'https://github.com/reversesingularity/my-repo', // optional
  *   status: 'live',                // 'live' | 'coming-soon'
  * },
  */
@@ -34,6 +35,8 @@ export interface Project {
   tags: string[]
   /** External URL — omit for coming-soon cards */
   url?: string
+  /** Source repository on GitHub */
+  repoUrl?: string
   status: ProjectStatus
 }
 
@@ -48,6 +51,7 @@ export const PROJECTS: Project[] = [
     accent: 'cyan',
     tags: ['React', 'Three.js', 'Vite', 'Physics'],
     url: 'https://nuclear.reversesingularity.com',
+    repoUrl: 'https://github.com/reversesingularity/nuclear-fission-reactors-moon-base-alpha',
     status: 'live',
   },
   {
@@ -60,6 +64,7 @@ export const PROJECTS: Project[] = [
     accent: 'orange',
     tags: ['React', 'Three.js', 'A* Algorithm', 'Recharts'],
     url: 'https://rover.reversesingularity.com',
+    repoUrl: 'https://github.com/reversesingularity/mars-rover-navigation-simulator',
     status: 'live',
   },
   {
@@ -72,6 +77,7 @@ export const PROJECTS: Project[] = [
     accent: 'green',
     tags: ['Next.js', 'Three.js', 'NASA Data', 'AI/ML'],
     url: 'https://alrs.reversesingularity.com',
+    repoUrl: 'https://github.com/reversesingularity/autonomous-lunar-rescue-system',
     status: 'live',
   },
   {
@@ -84,6 +90,33 @@ export const PROJECTS: Project[] = [
     accent: 'amber',
     tags: ['Canvas 2D', 'Physics Sim', 'JavaScript', 'SpaceX'],
     url: 'https://falcon9.reversesingularity.com',
+    repoUrl: 'https://github.com/reversesingularity/falcon9sim',
+    status: 'live',
+  },
+  {
+    id: 'alls',
+    title: 'Autonomous Lunar',
+    subtitle: 'Logistics System',
+    description:
+      'AI-powered mission planning and fleet monitoring for autonomous Starship lunar operations. Multi-agent coordination, digital twin visualization via CesiumJS, and real-time safety boundary monitoring through the MCWI mission control dashboard.',
+    icon: '🛰️',
+    accent: 'purple',
+    tags: ['React', 'CesiumJS', 'Supabase', 'AI/ML'],
+    url: 'https://alls.reversesingularity.com',
+    repoUrl: 'https://github.com/reversesingularity/autonomous-lunar-logistics',
+    status: 'live',
+  },
+  {
+    id: 'exoplanet',
+    title: 'AI Exoplanet Discovery',
+    subtitle: 'NASA Space Apps',
+    description:
+      'NASA Space Apps Challenge submission for AI-powered exoplanet detection. Analyze Kepler and TESS light curves with machine learning, visualize transit signatures, and batch-process stellar datasets in an interactive web dashboard.',
+    icon: '🪐',
+    accent: 'cyan',
+    tags: ['Python', 'Flask', 'NASA Data', 'ML'],
+    url: 'https://exoplanet.reversesingularity.com',
+    repoUrl: 'https://github.com/reversesingularity/exoplanet-spaceapp',
     status: 'live',
   },
   {

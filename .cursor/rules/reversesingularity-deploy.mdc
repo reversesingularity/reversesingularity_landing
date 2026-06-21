@@ -1,0 +1,45 @@
+---
+description: Deploy subdomains and DNS for reversesingularity.com project apps
+globs: docs/ADDING-A-PROJECT.md,vercel.json,**/railway.toml,**/Dockerfile
+alwaysApply: false
+---
+
+# Reverse Singularity Deployment
+
+## Subdomain pattern
+
+`{slug}.reversesingularity.com` — DNS managed on Vercel (domain registrar).
+
+## Vite/React → Vercel
+
+- Build: `npm run build`, output `dist`
+- After deploy: alias subdomain to deployment
+- **401 on subdomain:** disable SSO protection:
+  `vercel project protection disable {project} --sso`
+- Monorepo: set Vercel Root Directory (e.g. ALLS uses `mcwi/`)
+
+## Flask/Python → Railway
+
+- Dockerfile + `requirements-prod.txt`; listen on `$PORT` (8080 on Railway)
+- Custom domain on Railway → CNAME on Vercel DNS:
+  - `{slug}` CNAME → `{id}.up.railway.app`
+  - `_railway-verify.{slug}` TXT → `railway-verify=...`
+- Do **not** use broken nixpacks-only configs without pip
+
+## Landing page deploy
+
+```bash
+vercel link --yes --project reversesingularity_landing
+vercel --prod --yes
+```
+
+## DNS troubleshooting
+
+If authoritative DNS (8.8.8.8) is correct but local requests hit wrong host, flush Windows DNS cache or use 8.8.8.8 on the adapter.
+
+## Live reference
+
+| Host | Projects |
+|------|----------|
+| Vercel | nuclear, rover, alrs, falcon9, alls |
+| Railway | exoplanet |

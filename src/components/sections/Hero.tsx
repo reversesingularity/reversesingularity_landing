@@ -1,5 +1,6 @@
 import { motion, useReducedMotion } from 'motion/react'
 import { heroContainer, heroChild } from '../../lib/motionVariants'
+import { PROJECTS } from '../../data/projects'
 import Button from '../ui/Button'
 import { SplineScene } from '@/components/ui/splite'
 import { Spotlight } from '@/components/ui/spotlight'
@@ -8,6 +9,7 @@ import { Card } from '@/components/ui/card'
 export default function Hero() {
   const reduced = useReducedMotion()
   const child = heroChild(reduced)
+  const liveCount = PROJECTS.filter(p => p.status === 'live').length
 
   return (
     <section
@@ -77,8 +79,8 @@ export default function Hero() {
                 style={{ color: '#888' }}
               >
                 Engineering the frontier of scientific simulation — from nuclear fission on the
-                Moon to autonomous lunar rescue, rover navigation on Mars, and Falcon 9 booster
-                landings.
+                Moon to autonomous lunar logistics and rescue, Mars rover navigation, exoplanet
+                discovery, and Falcon 9 booster landings.
               </motion.p>
 
               {/* CTA */}
@@ -94,8 +96,8 @@ export default function Hero() {
                 aria-label="Project statistics"
               >
                 {[
-                  { value: '4',  label: 'Active Projects' },
-                  { value: '∞',  label: 'In Development'  },
+                  { value: String(liveCount), label: 'Active Projects' },
+                  { value: '∞', label: 'In Development' },
                   { value: '01', label: 'Mission: Explore' },
                 ].map(({ value, label }) => (
                   <div key={label} role="listitem">

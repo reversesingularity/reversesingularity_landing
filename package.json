@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "validate:projects": "tsx scripts/validate-projects.mjs",
+    "sync:repos": "node scripts/sync-github-repos.mjs",
+    "scaffold:project": "node scripts/scaffold-project.mjs"
   },
   "dependencies": {
     "@splinetool/react-spline": "^4.1.0",
@@ -26,6 +29,7 @@
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.39",
     "tailwindcss": "^3.4.6",
+    "tsx": "^4.19.4",
     "typescript": "^5.5.3",
     "vite": "^5.3.4"
   }
