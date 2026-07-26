@@ -159,6 +159,19 @@ export const PROJECTS: Project[] = [
     status: 'live',
   },
   {
+    id: 'ree',
+    title: 'REE Prospectivity',
+    subtitle: 'Mining Intelligence Platform',
+    description:
+      'AI-driven Rare Earth Element prospectivity for exploration teams — InstaGeo satellite ingestion, compositional anomaly detection with quantified uncertainty, and an immersive Cesium 3D globe with JORC-aligned assay overlays and ESG risk indexing.',
+    icon: '⛏️',
+    accent: 'amber',
+    tags: ['React', 'CesiumJS', 'Vite', 'ML'],
+    url: 'https://ree.reversesingularity.com',
+    repoUrl: 'https://github.com/reversesingularity/ree-prospectivity-platform',
+    status: 'live',
+  },
+  {
     id: 'future',
     title: 'Next Project',
     subtitle: 'In Development',

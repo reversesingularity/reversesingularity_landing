@@ -176,6 +176,8 @@ vercel dns add reversesingularity.com {slug} CNAME {target}
 | exoplanet | exoplanet.reversesingularity.com           | Railway | exoplanet-spaceapp |
 | blackhole | blackhole.reversesingularity.com           | Vercel  | black-hole-explorer-web-app |
 | leo       | leo.reversesingularity.com                 | Railway | leo-orbital-capacity-forecaster |
+| orbitclass| orbitclass.reversesingularity.com          | Vercel + Railway API | satellite-orbit-classification-project |
+| ree       | ree.reversesingularity.com                 | Vercel  | ree-prospectivity-platform |
 
 ---
 

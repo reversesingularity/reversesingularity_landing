@@ -25,6 +25,7 @@ const LIVE_URLS = {
   'black-hole-explorer-web-app': 'https://blackhole.reversesingularity.com',
   'leo-orbital-capacity-forecaster': 'https://leo.reversesingularity.com',
   'satellite-orbit-classification-project': 'https://orbitclass.reversesingularity.com',
+  'ree-prospectivity-platform': 'https://ree.reversesingularity.com',
   'phobetron_web_app': 'https://phobetronwebapp-production-d69a.up.railway.app',
   'stone-sceptre-website': 'https://reversesingularity.github.io/stone-sceptre-website/',
   'reversesingularity_landing': 'https://reversesingularity.com',
@@ -41,12 +42,13 @@ const LANDING_REPO_MAP = {
   blackhole: 'black-hole-explorer-web-app',
   leo: 'leo-orbital-capacity-forecaster',
   orbitclass: 'satellite-orbit-classification-project',
+  ree: 'ree-prospectivity-platform',
 }
 
 const CATEGORY_RULES = [
   { category: 'simulation', match: /sim|reactor|rover|lunar|falcon|orbit|exoplanet|spaceapp|launch-site|nuclear|alrs|alls|logistics|black-hole|schwarzschild|leo-orbital|capacity-forecaster|kessler|orbitclass|satellite-orbit/i },
   { category: 'maps-geospatial', match: /map|basemap|tile|country-maps|battle-map/i },
-  { category: 'ml-ai', match: /ml-|ai-|phobetron|classification|ree-detection|olanzapine|audiobook|second-brain|super-claude|self-hosted-ai|desktop-automation|book-writer|nephilim|jubilees|presentation-web/i },
+  { category: 'ml-ai', match: /ml-|ai-|phobetron|classification|ree-detection|ree-prospectivity|olanzapine|audiobook|second-brain|super-claude|self-hosted-ai|desktop-automation|book-writer|nephilim|jubilees|presentation-web/i },
   { category: 'games', match: /game|Cydonian|Soulsvania|Oaths|rts-/i },
   { category: 'web-apps', match: /web-app|website|planner|stone|sceptre|beyond-the-plate|spritesticker|news-aggregator|landing/i },
   { category: 'tooling', match: /toolkit|starter-kit|course|reversesingularity$/i },

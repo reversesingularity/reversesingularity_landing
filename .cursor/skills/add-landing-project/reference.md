@@ -27,7 +27,7 @@ export interface Project {
 | cyan | #00d4ff | nuclear |
 | orange | #ff6b35 | rover |
 | green | #00ff88 | alrs |
-| amber | #ffa502 | falcon9 |
+| amber | #ffa502 | falcon9, ree |
 | purple | #7b2fff | alls, blackhole, future |
 
 ## Current registry (2026-07)
@@ -42,7 +42,8 @@ export interface Project {
 | exoplanet | AI Exoplanet Discovery | exoplanet.reversesingularity.com | exoplanet-spaceapp |
 | blackhole | Black Hole Explorer | blackhole.reversesingularity.com | black-hole-explorer-web-app |
 | leo | LEO Orbital Capacity | leo.reversesingularity.com | leo-orbital-capacity-forecaster |
-| orbitclass | Orbit Classification | — (coming-soon) | satellite-orbit-classification-project |
+| orbitclass | Orbit Classification | orbitclass.reversesingularity.com | satellite-orbit-classification-project |
+| ree | REE Prospectivity | ree.reversesingularity.com | ree-prospectivity-platform |
 | future | Next Project | — | coming-soon |
 
 ## Files touched per add

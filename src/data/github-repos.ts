@@ -1,7 +1,7 @@
 /**
  * AUTO-GENERATED — do not edit by hand.
  * Regenerate: node scripts/sync-github-repos.mjs
- * Generated:  2026-07-26T05:45:02.666Z
+ * Generated:  2026-07-26T06:02:29.073Z
  * Source:     https://github.com/reversesingularity
  */
 
@@ -549,14 +549,14 @@ export const GITHUB_REPOS: GitHubRepo[] = [
   {
     "name": "ree-prospectivity-platform",
     "description": "AI-driven REE prospectivity platform — InstaGeo ML, Cesium 3D globe, JORC-aligned uncertainty for mining exploration",
-    "homepage": "",
+    "homepage": "https://ree.reversesingularity.com",
     "url": "https://github.com/reversesingularity/ree-prospectivity-platform",
     "language": "Python",
     "private": false,
     "archived": false,
     "updatedAt": "2026-07-05T05:36:46Z",
     "category": "ml-ai",
-    "landingProjectId": null
+    "landingProjectId": "ree"
   },
   {
     "name": "reversesingularity",
@@ -578,7 +578,7 @@ export const GITHUB_REPOS: GitHubRepo[] = [
     "language": "TypeScript",
     "private": false,
     "archived": false,
-    "updatedAt": "2026-07-26T05:21:29Z",
+    "updatedAt": "2026-07-26T05:45:19Z",
     "category": "web-apps",
     "landingProjectId": null
   },
@@ -602,7 +602,7 @@ export const GITHUB_REPOS: GitHubRepo[] = [
     "language": "Python",
     "private": true,
     "archived": false,
-    "updatedAt": "2026-07-26T05:36:45Z",
+    "updatedAt": "2026-07-26T05:47:53Z",
     "category": "simulation",
     "landingProjectId": "orbitclass"
   },
@@ -691,7 +691,8 @@ export const LANDING_REPO_MAP: Record<string, string> = {
   "exoplanet": "exoplanet-spaceapp",
   "blackhole": "black-hole-explorer-web-app",
   "leo": "leo-orbital-capacity-forecaster",
-  "orbitclass": "satellite-orbit-classification-project"
+  "orbitclass": "satellite-orbit-classification-project",
+  "ree": "ree-prospectivity-platform"
 }
 
 export function reposByCategory(category: RepoCategory): GitHubRepo[] {
