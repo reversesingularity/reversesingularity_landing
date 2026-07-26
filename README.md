@@ -47,12 +47,17 @@ node scripts/capture-screenshots.mjs
 | Falcon 9 Booster Landing | Live | [falcon9.reversesingularity.com](https://falcon9.reversesingularity.com) | [falcon9sim](https://github.com/reversesingularity/falcon9sim) |
 | Autonomous Lunar Logistics | Live | [alls.reversesingularity.com](https://alls.reversesingularity.com) | [autonomous-lunar-logistics](https://github.com/reversesingularity/autonomous-lunar-logistics) |
 | AI Exoplanet Discovery | Live | [exoplanet.reversesingularity.com](https://exoplanet.reversesingularity.com) | [exoplanet-spaceapp](https://github.com/reversesingularity/exoplanet-spaceapp) (private) |
+| Black Hole Explorer | Live | [blackhole.reversesingularity.com](https://blackhole.reversesingularity.com) | [black-hole-explorer-web-app](https://github.com/reversesingularity/black-hole-explorer-web-app) |
+| LEO Orbital Capacity | Live | [leo.reversesingularity.com](https://leo.reversesingularity.com) | [leo-orbital-capacity-forecaster](https://github.com/reversesingularity/leo-orbital-capacity-forecaster) |
+| Orbit Classification | Live | [orbitclass.reversesingularity.com](https://orbitclass.reversesingularity.com) | [satellite-orbit-classification-project](https://github.com/reversesingularity/satellite-orbit-classification-project) |
+| REE Prospectivity | Live | [ree.reversesingularity.com](https://ree.reversesingularity.com) | [ree-prospectivity-platform](https://github.com/reversesingularity/ree-prospectivity-platform) |
+| DE&I Horizontal Infrastructure PMO | Live | [dei-pmo.reversesingularity.com](https://dei-pmo.reversesingularity.com) | [dei-pmo-dashboard](https://github.com/reversesingularity/dei-pmo-dashboard) |
 
 ---
 
 ## GitHub Repository Registry
 
-All repositories under [github.com/reversesingularity](https://github.com/reversesingularity) are parsed into [`src/data/github-repos.ts`](src/data/github-repos.ts) (44 repos: 7 public, 37 private as of June 2026).
+All repositories under [github.com/reversesingularity](https://github.com/reversesingularity) are parsed into [`src/data/github-repos.ts`](src/data/github-repos.ts) (55 repos: 16 public, 39 private as of July 2026).
 
 Regenerate after adding or renaming repos:
 
@@ -70,6 +75,11 @@ node scripts/sync-github-repos.mjs
 | `falcon9` | [falcon9sim](https://github.com/reversesingularity/falcon9sim) | Public |
 | `alls` | [autonomous-lunar-logistics](https://github.com/reversesingularity/autonomous-lunar-logistics) | Public |
 | `exoplanet` | [exoplanet-spaceapp](https://github.com/reversesingularity/exoplanet-spaceapp) | Private |
+| `blackhole` | [black-hole-explorer-web-app](https://github.com/reversesingularity/black-hole-explorer-web-app) | Public |
+| `leo` | [leo-orbital-capacity-forecaster](https://github.com/reversesingularity/leo-orbital-capacity-forecaster) | Public |
+| `orbitclass` | [satellite-orbit-classification-project](https://github.com/reversesingularity/satellite-orbit-classification-project) | Public |
+| `ree` | [ree-prospectivity-platform](https://github.com/reversesingularity/ree-prospectivity-platform) | Public |
+| `dei-pmo` | [dei-pmo-dashboard](https://github.com/reversesingularity/dei-pmo-dashboard) | Public |
 
 Related public repos: [luna-40-nasa-reactor](https://github.com/reversesingularity/luna-40-nasa-reactor) (NASA Challenge submission, also deployed at nuclear subdomain).
 
@@ -79,6 +89,8 @@ Related public repos: [luna-40-nasa-reactor](https://github.com/reversesingulari
 |------------|----------|------------|
 | [autonomous-lunar-logistics](https://github.com/reversesingularity/autonomous-lunar-logistics) | [alls.reversesingularity.com](https://alls.reversesingularity.com) | Public |
 | [exoplanet-spaceapp](https://github.com/reversesingularity/exoplanet-spaceapp) | [exoplanet.reversesingularity.com](https://exoplanet.reversesingularity.com) | Private |
+| [leo-orbital-capacity-forecaster](https://github.com/reversesingularity/leo-orbital-capacity-forecaster) | [leo.reversesingularity.com](https://leo.reversesingularity.com) | Public |
+| [dei-pmo-dashboard](https://github.com/reversesingularity/dei-pmo-dashboard) | [dei-pmo.reversesingularity.com](https://dei-pmo.reversesingularity.com) | Public |
 | [phobetron_web_app](https://github.com/reversesingularity/phobetron_web_app) | [phobetronwebapp-production-d69a.up.railway.app](https://phobetronwebapp-production-d69a.up.railway.app) | Public |
 | [stone-sceptre-website](https://github.com/reversesingularity/stone-sceptre-website) | [reversesingularity.github.io/stone-sceptre-website](https://reversesingularity.github.io/stone-sceptre-website/) | Public |
 | [feast-planner](https://github.com/reversesingularity/feast-planner) | [feast-planner.vercel.app](https://feast-planner.vercel.app) | Private |
@@ -88,12 +100,12 @@ Related public repos: [luna-40-nasa-reactor](https://github.com/reversesingulari
 
 | Category | Count | Examples |
 |----------|------:|----------|
-| ML / AI | 13 | `phobetron_web_app`, `second-brain`, `automated-audiobook-production-and-distribution-pipeline` |
-| Simulation | 12 | `falcon9sim`, `mars-rover-navigation-simulator`, `autonomous-lunar-rescue-system`, `exoplanet-spaceapp` |
-| Web apps | 8 | `stone-sceptre-website`, `feast-planner`, `beyond-the-plate-web-app` |
+| ML / AI | 16 | `phobetron_web_app`, `second-brain`, `ree-prospectivity-platform` |
+| Simulation | 15 | `falcon9sim`, `mars-rover-navigation-simulator`, `leo-orbital-capacity-forecaster` |
+| Web apps | 10 | `dei-pmo-dashboard`, `stone-sceptre-website`, `feast-planner` |
 | Maps / geospatial | 7 | `multi-agent-battle-map`, `interactive-historical-map-generator`, `country-maps` |
-| Games | 3 | `CydonianSoulsvania`, `CydonianOaths`, `rts-game-dev` |
-| Other | 1 | — |
+| Games | 4 | `CydonianSoulsvania`, `CydonianOaths`, `rts-game-dev` |
+| Other | 3 | — |
 
 See [`src/data/github-repos.ts`](src/data/github-repos.ts) for the full machine-readable catalog with descriptions, languages, and update timestamps.
 

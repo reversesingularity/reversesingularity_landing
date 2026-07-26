@@ -402,9 +402,14 @@ Each simulation project has a unique accent. Use these for card borders, icons, 
 | Project              | Primary Token  | Hex       |
 |----------------------|----------------|-----------|
 | Nuclear Fission      | `cyan`         | `#00d4ff` |
+| DE&I PMO             | `cyan`         | `#00d4ff` |
 | Mars Rover           | `orange`       | `#ff6b35` |
+| LEO Orbital Capacity | `orange`       | `#ff6b35` |
 | Lunar Rescue (ALRS)  | `green`        | `#00ff88` |
+| Orbit Classification | `green`        | `#00ff88` |
 | Falcon 9             | `amber`        | `#ffa502` |
+| REE Prospectivity    | `amber`        | `#ffa502` |
+| Lunar Logistics / BH | `purple`       | `#7b2fff` |
 | Future / Unknown     | `purple`       | `#7b2fff` |
 
 ---

@@ -26,6 +26,7 @@ const LIVE_URLS = {
   'leo-orbital-capacity-forecaster': 'https://leo.reversesingularity.com',
   'satellite-orbit-classification-project': 'https://orbitclass.reversesingularity.com',
   'ree-prospectivity-platform': 'https://ree.reversesingularity.com',
+  'dei-pmo-dashboard': 'https://dei-pmo.reversesingularity.com',
   'phobetron_web_app': 'https://phobetronwebapp-production-d69a.up.railway.app',
   'stone-sceptre-website': 'https://reversesingularity.github.io/stone-sceptre-website/',
   'reversesingularity_landing': 'https://reversesingularity.com',
@@ -43,6 +44,7 @@ const LANDING_REPO_MAP = {
   leo: 'leo-orbital-capacity-forecaster',
   orbitclass: 'satellite-orbit-classification-project',
   ree: 'ree-prospectivity-platform',
+  'dei-pmo': 'dei-pmo-dashboard',
 }
 
 const CATEGORY_RULES = [
@@ -50,7 +52,7 @@ const CATEGORY_RULES = [
   { category: 'maps-geospatial', match: /map|basemap|tile|country-maps|battle-map/i },
   { category: 'ml-ai', match: /ml-|ai-|phobetron|classification|ree-detection|ree-prospectivity|olanzapine|audiobook|second-brain|super-claude|self-hosted-ai|desktop-automation|book-writer|nephilim|jubilees|presentation-web/i },
   { category: 'games', match: /game|Cydonian|Soulsvania|Oaths|rts-/i },
-  { category: 'web-apps', match: /web-app|website|planner|stone|sceptre|beyond-the-plate|spritesticker|news-aggregator|landing/i },
+  { category: 'web-apps', match: /web-app|website|planner|stone|sceptre|beyond-the-plate|spritesticker|news-aggregator|landing|dei-pmo|pmo-dashboard/i },
   { category: 'tooling', match: /toolkit|starter-kit|course|reversesingularity$/i },
 ]
 

@@ -1,7 +1,7 @@
 /**
  * AUTO-GENERATED — do not edit by hand.
  * Regenerate: node scripts/sync-github-repos.mjs
- * Generated:  2026-07-26T06:02:29.073Z
+ * Generated:  2026-07-26T08:01:34.133Z
  * Source:     https://github.com/reversesingularity
  */
 
@@ -28,7 +28,7 @@ export interface GitHubRepo {
   landingProjectId: string | null
 }
 
-/** 54 repositories (15 public, 39 private) */
+/** 55 repositories (16 public, 39 private) */
 export const GITHUB_REPOS: GitHubRepo[] = [
   {
     "name": "3d-web-design-agency",
@@ -199,6 +199,18 @@ export const GITHUB_REPOS: GitHubRepo[] = [
     "landingProjectId": null
   },
   {
+    "name": "dei-pmo-dashboard",
+    "description": "DE&I Horizontal Infrastructure PMO Dashboard — 141-project Streamlit/DuckDB portfolio demo with EVM, 5×5 risk matrix, and Crown Copyright-aware OIA reference materials",
+    "homepage": "https://dei-pmo.reversesingularity.com",
+    "url": "https://github.com/reversesingularity/dei-pmo-dashboard",
+    "language": "Python",
+    "private": false,
+    "archived": false,
+    "updatedAt": "2026-07-26T07:54:13Z",
+    "category": "web-apps",
+    "landingProjectId": "dei-pmo"
+  },
+  {
     "name": "desktop-automation-ui",
     "description": "Desktop automation control UI.",
     "homepage": "",
@@ -338,7 +350,7 @@ export const GITHUB_REPOS: GitHubRepo[] = [
     "language": "Python",
     "private": true,
     "archived": false,
-    "updatedAt": "2026-07-07T07:24:09Z",
+    "updatedAt": "2026-07-26T07:54:58Z",
     "category": "other",
     "landingProjectId": null
   },
@@ -578,7 +590,7 @@ export const GITHUB_REPOS: GitHubRepo[] = [
     "language": "TypeScript",
     "private": false,
     "archived": false,
-    "updatedAt": "2026-07-26T05:45:19Z",
+    "updatedAt": "2026-07-26T06:31:44Z",
     "category": "web-apps",
     "landingProjectId": null
   },
@@ -602,7 +614,7 @@ export const GITHUB_REPOS: GitHubRepo[] = [
     "language": "Python",
     "private": true,
     "archived": false,
-    "updatedAt": "2026-07-26T05:47:53Z",
+    "updatedAt": "2026-07-26T06:30:05Z",
     "category": "simulation",
     "landingProjectId": "orbitclass"
   },
@@ -692,7 +704,8 @@ export const LANDING_REPO_MAP: Record<string, string> = {
   "blackhole": "black-hole-explorer-web-app",
   "leo": "leo-orbital-capacity-forecaster",
   "orbitclass": "satellite-orbit-classification-project",
-  "ree": "ree-prospectivity-platform"
+  "ree": "ree-prospectivity-platform",
+  "dei-pmo": "dei-pmo-dashboard"
 }
 
 export function reposByCategory(category: RepoCategory): GitHubRepo[] {

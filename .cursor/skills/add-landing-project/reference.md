@@ -24,13 +24,13 @@ export interface Project {
 
 | Key | Hex | Used by |
 |-----|-----|---------|
-| cyan | #00d4ff | nuclear |
-| orange | #ff6b35 | rover |
-| green | #00ff88 | alrs |
+| cyan | #00d4ff | nuclear, dei-pmo |
+| orange | #ff6b35 | rover, leo |
+| green | #00ff88 | alrs, orbitclass |
 | amber | #ffa502 | falcon9, ree |
 | purple | #7b2fff | alls, blackhole, future |
 
-## Current registry (2026-07)
+## Current registry (2026-07-26)
 
 | id | title | url | repo |
 |----|-------|-----|------|
@@ -44,6 +44,7 @@ export interface Project {
 | leo | LEO Orbital Capacity | leo.reversesingularity.com | leo-orbital-capacity-forecaster |
 | orbitclass | Orbit Classification | orbitclass.reversesingularity.com | satellite-orbit-classification-project |
 | ree | REE Prospectivity | ree.reversesingularity.com | ree-prospectivity-platform |
+| dei-pmo | DE&I Horizontal Infrastructure PMO | dei-pmo.reversesingularity.com | dei-pmo-dashboard |
 | future | Next Project | — | coming-soon |
 
 ## Files touched per add
@@ -63,4 +64,5 @@ Nuclear/energy: ⚛️ 🔋
 Rovers/terrain: 🤖 🏜️  
 Rescue/medical: 🚑 🏥  
 Logistics: 📦 🛰️  
-AI/science: 🔭 🧠 ✨
+AI/science: 🔭 🧠 ✨  
+Infrastructure / PMO: 🏗️ 📊 🗺️

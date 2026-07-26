@@ -172,6 +172,19 @@ export const PROJECTS: Project[] = [
     status: 'live',
   },
   {
+    id: 'dei-pmo',
+    title: 'DE&I Horizontal Infrastructure',
+    subtitle: 'PMO Dashboard',
+    description:
+      'Portfolio-grade PMO delivery dashboard for Defence Estate & Infrastructure horizontal works — 141 projects across nine NZDF bases. Earned Value Management (SPI/CPI), 5×5 risk matrix, executive RAG reporting, and filterable register views on synthetic DEPP-shaped data.',
+    icon: '🏗️',
+    accent: 'cyan',
+    tags: ['Python', 'Streamlit', 'DuckDB', 'Plotly'],
+    url: 'https://dei-pmo.reversesingularity.com',
+    repoUrl: 'https://github.com/reversesingularity/dei-pmo-dashboard',
+    status: 'live',
+  },
+  {
     id: 'future',
     title: 'Next Project',
     subtitle: 'In Development',

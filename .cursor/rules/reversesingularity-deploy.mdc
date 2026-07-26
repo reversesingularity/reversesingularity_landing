@@ -42,4 +42,4 @@ If authoritative DNS (8.8.8.8) is correct but local requests hit wrong host, flu
 | Host | Projects |
 |------|----------|
 | Vercel | nuclear, rover, alrs, falcon9, alls, blackhole, orbitclass (UI), ree |
-| Railway | exoplanet, leo, orbitclass (API) |
+| Railway | exoplanet, leo, orbitclass (API), dei-pmo |

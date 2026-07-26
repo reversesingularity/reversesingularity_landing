@@ -178,6 +178,7 @@ vercel dns add reversesingularity.com {slug} CNAME {target}
 | leo       | leo.reversesingularity.com                 | Railway | leo-orbital-capacity-forecaster |
 | orbitclass| orbitclass.reversesingularity.com          | Vercel + Railway API | satellite-orbit-classification-project |
 | ree       | ree.reversesingularity.com                 | Vercel  | ree-prospectivity-platform |
+| dei-pmo   | dei-pmo.reversesingularity.com             | Railway | dei-pmo-dashboard |
 
 ---
 
@@ -193,6 +194,7 @@ vercel dns add reversesingularity.com {slug} CNAME {target}
 [ ] vercel --prod on reversesingularity_landing
 [ ] Launch Project link tested in browser
 [ ] README featured-projects table updated (optional)
+[ ] docs/SESSION-HANDOFF.md rewritten for the new project
 ```
 
 ---

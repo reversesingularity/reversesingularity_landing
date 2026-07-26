@@ -5,10 +5,16 @@
 ```
 Is the app React/Vite/static?
   YES → Vercel
-  NO → Is it Python/Flask with ML?
+  NO → Is it Python (Flask / Streamlit / FastAPI)?
     YES → Railway + Dockerfile
     NO → Ask user (GitHub Pages, Unity WebGL, etc.)
 ```
+
+### Streamlit on Railway (leo, dei-pmo)
+
+- Bind `0.0.0.0:$PORT` via `streamlit run … --server.port=${PORT:-8080} --server.address=0.0.0.0`
+- Regenerate gitignored DuckDB/data inside the Docker build if needed
+- Custom domain port **8080**; CNAME + `_railway-verify` TXT on Vercel DNS
 
 ## Vercel checklist
 
