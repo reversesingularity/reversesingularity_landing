@@ -1,7 +1,7 @@
 /**
  * AUTO-GENERATED — do not edit by hand.
  * Regenerate: node scripts/sync-github-repos.mjs
- * Generated:  2026-07-26T05:01:58.282Z
+ * Generated:  2026-07-26T05:45:02.666Z
  * Source:     https://github.com/reversesingularity
  */
 
@@ -350,7 +350,7 @@ export const GITHUB_REPOS: GitHubRepo[] = [
     "language": "Python",
     "private": false,
     "archived": false,
-    "updatedAt": "2026-07-09T10:48:56Z",
+    "updatedAt": "2026-07-26T05:21:29Z",
     "category": "simulation",
     "landingProjectId": "leo"
   },
@@ -578,7 +578,7 @@ export const GITHUB_REPOS: GitHubRepo[] = [
     "language": "TypeScript",
     "private": false,
     "archived": false,
-    "updatedAt": "2026-06-21T08:46:02Z",
+    "updatedAt": "2026-07-26T05:21:29Z",
     "category": "web-apps",
     "landingProjectId": null
   },
@@ -596,15 +596,15 @@ export const GITHUB_REPOS: GitHubRepo[] = [
   },
   {
     "name": "satellite-orbit-classification-project",
-    "description": "Satellite orbit classification research project.",
-    "homepage": "",
+    "description": "SSA orbit classification and anomaly detection — IsolationForest, SHAP, Cesium globe",
+    "homepage": "https://orbitclass.reversesingularity.com",
     "url": "https://github.com/reversesingularity/satellite-orbit-classification-project",
-    "language": null,
+    "language": "Python",
     "private": true,
     "archived": false,
-    "updatedAt": "2025-11-15T04:03:50Z",
+    "updatedAt": "2026-07-26T05:36:45Z",
     "category": "simulation",
-    "landingProjectId": null
+    "landingProjectId": "orbitclass"
   },
   {
     "name": "second-brain",
@@ -690,7 +690,8 @@ export const LANDING_REPO_MAP: Record<string, string> = {
   "alls": "autonomous-lunar-logistics",
   "exoplanet": "exoplanet-spaceapp",
   "blackhole": "black-hole-explorer-web-app",
-  "leo": "leo-orbital-capacity-forecaster"
+  "leo": "leo-orbital-capacity-forecaster",
+  "orbitclass": "satellite-orbit-classification-project"
 }
 
 export function reposByCategory(category: RepoCategory): GitHubRepo[] {

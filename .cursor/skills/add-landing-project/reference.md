@@ -42,6 +42,7 @@ export interface Project {
 | exoplanet | AI Exoplanet Discovery | exoplanet.reversesingularity.com | exoplanet-spaceapp |
 | blackhole | Black Hole Explorer | blackhole.reversesingularity.com | black-hole-explorer-web-app |
 | leo | LEO Orbital Capacity | leo.reversesingularity.com | leo-orbital-capacity-forecaster |
+| orbitclass | Orbit Classification | — (coming-soon) | satellite-orbit-classification-project |
 | future | Next Project | — | coming-soon |
 
 ## Files touched per add

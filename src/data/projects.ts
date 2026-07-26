@@ -146,6 +146,19 @@ export const PROJECTS: Project[] = [
     status: 'live',
   },
   {
+    id: 'orbitclass',
+    title: 'Orbit Classification',
+    subtitle: 'Anomaly Detection',
+    description:
+      'Space Situational Awareness pipeline that classifies satellites into LEO / MEO / GEO / Molniya from TLE data, detects anomalous maneuvers with IsolationForest, and explains decisions with SHAP on an interactive Cesium globe.',
+    icon: '📡',
+    accent: 'green',
+    tags: ['Python', 'FastAPI', 'CesiumJS', 'SHAP'],
+    url: 'https://orbitclass.reversesingularity.com',
+    repoUrl: 'https://github.com/reversesingularity/satellite-orbit-classification-project',
+    status: 'live',
+  },
+  {
     id: 'future',
     title: 'Next Project',
     subtitle: 'In Development',

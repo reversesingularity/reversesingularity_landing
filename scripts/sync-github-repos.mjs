@@ -24,6 +24,7 @@ const LIVE_URLS = {
   'exoplanet-spaceapp': 'https://exoplanet.reversesingularity.com',
   'black-hole-explorer-web-app': 'https://blackhole.reversesingularity.com',
   'leo-orbital-capacity-forecaster': 'https://leo.reversesingularity.com',
+  'satellite-orbit-classification-project': 'https://orbitclass.reversesingularity.com',
   'phobetron_web_app': 'https://phobetronwebapp-production-d69a.up.railway.app',
   'stone-sceptre-website': 'https://reversesingularity.github.io/stone-sceptre-website/',
   'reversesingularity_landing': 'https://reversesingularity.com',
@@ -39,10 +40,11 @@ const LANDING_REPO_MAP = {
   exoplanet: 'exoplanet-spaceapp',
   blackhole: 'black-hole-explorer-web-app',
   leo: 'leo-orbital-capacity-forecaster',
+  orbitclass: 'satellite-orbit-classification-project',
 }
 
 const CATEGORY_RULES = [
-  { category: 'simulation', match: /sim|reactor|rover|lunar|falcon|orbit|exoplanet|spaceapp|launch-site|nuclear|alrs|alls|logistics|black-hole|schwarzschild|leo-orbital|capacity-forecaster|kessler/i },
+  { category: 'simulation', match: /sim|reactor|rover|lunar|falcon|orbit|exoplanet|spaceapp|launch-site|nuclear|alrs|alls|logistics|black-hole|schwarzschild|leo-orbital|capacity-forecaster|kessler|orbitclass|satellite-orbit/i },
   { category: 'maps-geospatial', match: /map|basemap|tile|country-maps|battle-map/i },
   { category: 'ml-ai', match: /ml-|ai-|phobetron|classification|ree-detection|olanzapine|audiobook|second-brain|super-claude|self-hosted-ai|desktop-automation|book-writer|nephilim|jubilees|presentation-web/i },
   { category: 'games', match: /game|Cydonian|Soulsvania|Oaths|rts-/i },
@@ -78,7 +80,7 @@ function inferDescription(name, description) {
     'exoplanet-spaceapp': 'NASA Space Apps exoplanet exploration project.',
     'nz-launch-site-ai-project': 'AI-assisted launch site analysis for New Zealand.',
     'ml-model-for-ree-detection': 'Machine learning model for rare earth element detection.',
-    'satellite-orbit-classification-project': 'Satellite orbit classification research project.',
+    'satellite-orbit-classification-project': 'SSA orbit classification and anomaly detection with Cesium + SHAP.',
     'project-orbit-classification': 'Orbital classification models and datasets.',
     'country-maps': 'Country map generation utilities.',
     'interactive-basemap': 'Interactive basemap rendering experiments.',
