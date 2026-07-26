@@ -28,9 +28,9 @@ export interface Project {
 | orange | #ff6b35 | rover |
 | green | #00ff88 | alrs |
 | amber | #ffa502 | falcon9 |
-| purple | #7b2fff | alls, exoplanet, future |
+| purple | #7b2fff | alls, blackhole, future |
 
-## Current registry (2026-06)
+## Current registry (2026-07)
 
 | id | title | url | repo |
 |----|-------|-----|------|
@@ -40,6 +40,8 @@ export interface Project {
 | falcon9 | Falcon 9 Booster | falcon9.reversesingularity.com | falcon9sim |
 | alls | Autonomous Lunar Logistics | alls.reversesingularity.com | autonomous-lunar-logistics |
 | exoplanet | AI Exoplanet Discovery | exoplanet.reversesingularity.com | exoplanet-spaceapp |
+| blackhole | Black Hole Explorer | blackhole.reversesingularity.com | black-hole-explorer-web-app |
+| leo | LEO Orbital Capacity | leo.reversesingularity.com | leo-orbital-capacity-forecaster |
 | future | Next Project | — | coming-soon |
 
 ## Files touched per add

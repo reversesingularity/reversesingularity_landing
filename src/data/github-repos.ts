@@ -1,7 +1,7 @@
 /**
  * AUTO-GENERATED — do not edit by hand.
  * Regenerate: node scripts/sync-github-repos.mjs
- * Generated:  2026-06-21T06:01:21.825Z
+ * Generated:  2026-07-26T05:01:58.282Z
  * Source:     https://github.com/reversesingularity
  */
 
@@ -28,8 +28,32 @@ export interface GitHubRepo {
   landingProjectId: string | null
 }
 
-/** 44 repositories (7 public, 37 private) */
+/** 54 repositories (15 public, 39 private) */
 export const GITHUB_REPOS: GitHubRepo[] = [
+  {
+    "name": "3d-web-design-agency",
+    "description": "Loop-engineered autonomous 3D web design agency — R3F landing pages and telemetry dashboards for deep-tech clients",
+    "homepage": "",
+    "url": "https://github.com/reversesingularity/3d-web-design-agency",
+    "language": "TypeScript",
+    "private": false,
+    "archived": false,
+    "updatedAt": "2026-07-06T08:10:24Z",
+    "category": "web-apps",
+    "landingProjectId": null
+  },
+  {
+    "name": "ai-book-creator",
+    "description": "Autonomous multi-agent publishing studio for long-form fiction and coordinated visual assets via Cursor, Git worktrees, and Obsidian MCP.",
+    "homepage": "",
+    "url": "https://github.com/reversesingularity/ai-book-creator",
+    "language": "Python",
+    "private": false,
+    "archived": false,
+    "updatedAt": "2026-07-06T06:30:25Z",
+    "category": "ml-ai",
+    "landingProjectId": null
+  },
   {
     "name": "ai-engineer-for-developers-course",
     "description": "AI engineering course materials.",
@@ -91,6 +115,18 @@ export const GITHUB_REPOS: GitHubRepo[] = [
     "landingProjectId": null
   },
   {
+    "name": "black-hole-explorer-web-app",
+    "description": "Real-time WebGPU Schwarzschild black hole explorer (TSL RK4, Novikov–Thorne, ORCID/Zenodo ready) — Christopher Modina",
+    "homepage": "https://reversesingularity.github.io/black-hole-explorer-web-app/",
+    "url": "https://github.com/reversesingularity/black-hole-explorer-web-app",
+    "language": "TypeScript",
+    "private": false,
+    "archived": false,
+    "updatedAt": "2026-07-12T04:05:35Z",
+    "category": "simulation",
+    "landingProjectId": "blackhole"
+  },
+  {
     "name": "book-writer-ai-toolkit",
     "description": "AI-assisted book writing toolkit.",
     "homepage": "",
@@ -99,6 +135,18 @@ export const GITHUB_REPOS: GitHubRepo[] = [
     "private": true,
     "archived": false,
     "updatedAt": "2026-01-19T23:34:06Z",
+    "category": "ml-ai",
+    "landingProjectId": null
+  },
+  {
+    "name": "comic-forge",
+    "description": "ComicForge Sequential Art Synthesis Engine — Cursor C&C multi-agent pipeline for The Nephilim Chronicles",
+    "homepage": "",
+    "url": "https://github.com/reversesingularity/comic-forge",
+    "language": "Python",
+    "private": true,
+    "archived": false,
+    "updatedAt": "2026-07-19T10:36:25Z",
     "category": "ml-ai",
     "landingProjectId": null
   },
@@ -235,6 +283,18 @@ export const GITHUB_REPOS: GitHubRepo[] = [
     "landingProjectId": null
   },
   {
+    "name": "i-know-kung-fu",
+    "description": "Global martial arts training platform — generative 3D MotionScript, quaternion DTW form feedback, and SM-2 Focus Rings curriculum",
+    "homepage": "",
+    "url": "https://github.com/reversesingularity/i-know-kung-fu",
+    "language": "TypeScript",
+    "private": false,
+    "archived": false,
+    "updatedAt": "2026-07-10T06:37:43Z",
+    "category": "other",
+    "landingProjectId": null
+  },
+  {
     "name": "interactive-basemap",
     "description": "Interactive basemap rendering experiments.",
     "homepage": "",
@@ -269,6 +329,30 @@ export const GITHUB_REPOS: GitHubRepo[] = [
     "updatedAt": "2025-11-15T04:00:38Z",
     "category": "maps-geospatial",
     "landingProjectId": null
+  },
+  {
+    "name": "job-hunt",
+    "description": "Autonomous job acquisition engine with honest CV tailoring and NZ defence PMO portfolio demos",
+    "homepage": "",
+    "url": "https://github.com/reversesingularity/job-hunt",
+    "language": "Python",
+    "private": true,
+    "archived": false,
+    "updatedAt": "2026-07-07T07:24:09Z",
+    "category": "other",
+    "landingProjectId": null
+  },
+  {
+    "name": "leo-orbital-capacity-forecaster",
+    "description": "Python-native JIT SSEM for LEO orbital capacity, sustainability rating, and Kessler-risk assessment",
+    "homepage": "https://leo.reversesingularity.com",
+    "url": "https://github.com/reversesingularity/leo-orbital-capacity-forecaster",
+    "language": "Python",
+    "private": false,
+    "archived": false,
+    "updatedAt": "2026-07-09T10:48:56Z",
+    "category": "simulation",
+    "landingProjectId": "leo"
   },
   {
     "name": "luna-40-nasa-reactor",
@@ -338,7 +422,7 @@ export const GITHUB_REPOS: GitHubRepo[] = [
     "language": "Python",
     "private": true,
     "archived": false,
-    "updatedAt": "2026-05-15T11:46:41Z",
+    "updatedAt": "2026-06-27T12:24:11Z",
     "category": "ml-ai",
     "landingProjectId": null
   },
@@ -391,6 +475,18 @@ export const GITHUB_REPOS: GitHubRepo[] = [
     "landingProjectId": null
   },
   {
+    "name": "OpenRA-Cydonian-Harmonics",
+    "description": "Cydonian Harmonics — asymmetric OpenRA RTS total conversion (Acoustic Paradigm, Operational Silence, CODE KickStart release).",
+    "homepage": "",
+    "url": "https://github.com/reversesingularity/OpenRA-Cydonian-Harmonics",
+    "language": "C#",
+    "private": false,
+    "archived": false,
+    "updatedAt": "2026-07-19T10:27:56Z",
+    "category": "games",
+    "landingProjectId": null
+  },
+  {
     "name": "phobetron_web_app",
     "description": "Biblical Prophecy & Celestial Pattern Detection System with ML correlation models",
     "homepage": "https://phobetronwebapp-production-d69a.up.railway.app",
@@ -412,6 +508,18 @@ export const GITHUB_REPOS: GitHubRepo[] = [
     "archived": false,
     "updatedAt": "2025-11-15T04:03:08Z",
     "category": "ml-ai",
+    "landingProjectId": null
+  },
+  {
+    "name": "project-chronos",
+    "description": "Project Chronos: High-Thrust Nuclear Thermal Propulsion and Titan Exploration Simulator (WebGPU/TSL)",
+    "homepage": "",
+    "url": "https://github.com/reversesingularity/project-chronos",
+    "language": "TypeScript",
+    "private": false,
+    "archived": false,
+    "updatedAt": "2026-07-12T08:11:43Z",
+    "category": "simulation",
     "landingProjectId": null
   },
   {
@@ -439,6 +547,18 @@ export const GITHUB_REPOS: GitHubRepo[] = [
     "landingProjectId": null
   },
   {
+    "name": "ree-prospectivity-platform",
+    "description": "AI-driven REE prospectivity platform — InstaGeo ML, Cesium 3D globe, JORC-aligned uncertainty for mining exploration",
+    "homepage": "",
+    "url": "https://github.com/reversesingularity/ree-prospectivity-platform",
+    "language": "Python",
+    "private": false,
+    "archived": false,
+    "updatedAt": "2026-07-05T05:36:46Z",
+    "category": "ml-ai",
+    "landingProjectId": null
+  },
+  {
     "name": "reversesingularity",
     "description": "Config files for my GitHub profile.",
     "homepage": "https://github.com/reversesingularity",
@@ -458,7 +578,7 @@ export const GITHUB_REPOS: GitHubRepo[] = [
     "language": "TypeScript",
     "private": false,
     "archived": false,
-    "updatedAt": "2026-05-21T08:02:20Z",
+    "updatedAt": "2026-06-21T08:46:02Z",
     "category": "web-apps",
     "landingProjectId": null
   },
@@ -494,7 +614,7 @@ export const GITHUB_REPOS: GitHubRepo[] = [
     "language": "HTML",
     "private": true,
     "archived": false,
-    "updatedAt": "2026-06-18T08:36:05Z",
+    "updatedAt": "2026-07-11T05:01:47Z",
     "category": "ml-ai",
     "landingProjectId": null
   },
@@ -568,7 +688,9 @@ export const LANDING_REPO_MAP: Record<string, string> = {
   "alrs": "autonomous-lunar-rescue-system",
   "falcon9": "falcon9sim",
   "alls": "autonomous-lunar-logistics",
-  "exoplanet": "exoplanet-spaceapp"
+  "exoplanet": "exoplanet-spaceapp",
+  "blackhole": "black-hole-explorer-web-app",
+  "leo": "leo-orbital-capacity-forecaster"
 }
 
 export function reposByCategory(category: RepoCategory): GitHubRepo[] {

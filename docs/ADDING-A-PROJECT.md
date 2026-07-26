@@ -174,6 +174,8 @@ vercel dns add reversesingularity.com {slug} CNAME {target}
 | falcon9   | falcon9.reversesingularity.com             | Vercel  | falcon9sim |
 | alls      | alls.reversesingularity.com                | Vercel  | autonomous-lunar-logistics (mcwi/) |
 | exoplanet | exoplanet.reversesingularity.com           | Railway | exoplanet-spaceapp |
+| blackhole | blackhole.reversesingularity.com           | Vercel  | black-hole-explorer-web-app |
+| leo       | leo.reversesingularity.com                 | Railway | leo-orbital-capacity-forecaster |
 
 ---
 

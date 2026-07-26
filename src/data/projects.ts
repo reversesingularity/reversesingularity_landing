@@ -120,6 +120,32 @@ export const PROJECTS: Project[] = [
     status: 'live',
   },
   {
+    id: 'blackhole',
+    title: 'Black Hole Explorer',
+    subtitle: 'Schwarzschild Visualization',
+    description:
+      'Real-time browser-based general-relativistic visualization of a Schwarzschild black hole. WebGPU null-geodesic raymarching, Novikov–Thorne accretion disk, gravitational lensing, Doppler beaming, and interactive presets for Sgr A* and stellar-mass holes.',
+    icon: '🕳️',
+    accent: 'purple',
+    tags: ['React', 'Three.js', 'WebGPU', 'Physics'],
+    url: 'https://blackhole.reversesingularity.com',
+    repoUrl: 'https://github.com/reversesingularity/black-hole-explorer-web-app',
+    status: 'live',
+  },
+  {
+    id: 'leo',
+    title: 'LEO Orbital Capacity',
+    subtitle: 'Forecaster',
+    description:
+      'Numba-accelerated source-sink evolutionary model for LEO orbital capacity, space sustainability rating, and Kessler-risk assessment. Interactive Streamlit dashboard with 3D shell-density globe, scenario presets, and FastAPI microservice.',
+    icon: '🛰️',
+    accent: 'orange',
+    tags: ['Python', 'Streamlit', 'Numba', 'FastAPI'],
+    url: 'https://leo.reversesingularity.com',
+    repoUrl: 'https://github.com/reversesingularity/leo-orbital-capacity-forecaster',
+    status: 'live',
+  },
+  {
     id: 'future',
     title: 'Next Project',
     subtitle: 'In Development',
