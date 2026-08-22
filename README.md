@@ -52,6 +52,7 @@ node scripts/capture-screenshots.mjs
 | Orbit Classification | Live | [orbitclass.reversesingularity.com](https://orbitclass.reversesingularity.com) | [satellite-orbit-classification-project](https://github.com/reversesingularity/satellite-orbit-classification-project) |
 | REE Prospectivity | Live | [ree.reversesingularity.com](https://ree.reversesingularity.com) | [ree-prospectivity-platform](https://github.com/reversesingularity/ree-prospectivity-platform) |
 | DE&I Horizontal Infrastructure PMO | Live | [dei-pmo.reversesingularity.com](https://dei-pmo.reversesingularity.com) | [dei-pmo-dashboard](https://github.com/reversesingularity/dei-pmo-dashboard) |
+| Hashmal Energy Reactor | Live | [hashmal.reversesingularity.com](https://hashmal.reversesingularity.com) | [hashmal-reactor](https://github.com/reversesingularity/hashmal-reactor) (private) |
 
 ---
 
@@ -80,6 +81,7 @@ node scripts/sync-github-repos.mjs
 | `orbitclass` | [satellite-orbit-classification-project](https://github.com/reversesingularity/satellite-orbit-classification-project) | Public |
 | `ree` | [ree-prospectivity-platform](https://github.com/reversesingularity/ree-prospectivity-platform) | Public |
 | `dei-pmo` | [dei-pmo-dashboard](https://github.com/reversesingularity/dei-pmo-dashboard) | Public |
+| `hashmal` | [hashmal-reactor](https://github.com/reversesingularity/hashmal-reactor) | Private |
 
 Related public repos: [luna-40-nasa-reactor](https://github.com/reversesingularity/luna-40-nasa-reactor) (NASA Challenge submission, also deployed at nuclear subdomain).
 

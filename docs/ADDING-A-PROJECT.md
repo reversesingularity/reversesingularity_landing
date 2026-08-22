@@ -179,6 +179,7 @@ vercel dns add reversesingularity.com {slug} CNAME {target}
 | orbitclass| orbitclass.reversesingularity.com          | Vercel + Railway API | satellite-orbit-classification-project |
 | ree       | ree.reversesingularity.com                 | Vercel  | ree-prospectivity-platform |
 | dei-pmo   | dei-pmo.reversesingularity.com             | Railway | dei-pmo-dashboard |
+| hashmal   | hashmal.reversesingularity.com             | Vercel  | hashmal-reactor |
 
 ---
 

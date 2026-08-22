@@ -1,7 +1,7 @@
 /**
  * AUTO-GENERATED — do not edit by hand.
  * Regenerate: node scripts/sync-github-repos.mjs
- * Generated:  2026-07-26T08:01:34.133Z
+ * Generated:  2026-08-22T03:45:38.189Z
  * Source:     https://github.com/reversesingularity
  */
 
@@ -28,7 +28,7 @@ export interface GitHubRepo {
   landingProjectId: string | null
 }
 
-/** 55 repositories (16 public, 39 private) */
+/** 56 repositories (16 public, 40 private) */
 export const GITHUB_REPOS: GitHubRepo[] = [
   {
     "name": "3d-web-design-agency",
@@ -206,7 +206,7 @@ export const GITHUB_REPOS: GitHubRepo[] = [
     "language": "Python",
     "private": false,
     "archived": false,
-    "updatedAt": "2026-07-26T07:54:13Z",
+    "updatedAt": "2026-07-26T08:25:19Z",
     "category": "web-apps",
     "landingProjectId": "dei-pmo"
   },
@@ -295,6 +295,18 @@ export const GITHUB_REPOS: GitHubRepo[] = [
     "landingProjectId": null
   },
   {
+    "name": "hashmal-reactor",
+    "description": "HASHMAL conceptual design studio — paper, HER-0 blueprint, orbitable 3D vessel",
+    "homepage": "https://hashmal.reversesingularity.com",
+    "url": "https://github.com/reversesingularity/hashmal-reactor",
+    "language": "TypeScript",
+    "private": true,
+    "archived": false,
+    "updatedAt": "2026-08-22T03:36:05Z",
+    "category": "simulation",
+    "landingProjectId": "hashmal"
+  },
+  {
     "name": "i-know-kung-fu",
     "description": "Global martial arts training platform — generative 3D MotionScript, quaternion DTW form feedback, and SM-2 Focus Rings curriculum",
     "homepage": "",
@@ -350,7 +362,7 @@ export const GITHUB_REPOS: GitHubRepo[] = [
     "language": "Python",
     "private": true,
     "archived": false,
-    "updatedAt": "2026-07-26T07:54:58Z",
+    "updatedAt": "2026-07-26T08:26:08Z",
     "category": "other",
     "landingProjectId": null
   },
@@ -362,7 +374,7 @@ export const GITHUB_REPOS: GitHubRepo[] = [
     "language": "Python",
     "private": false,
     "archived": false,
-    "updatedAt": "2026-07-26T05:21:29Z",
+    "updatedAt": "2026-07-27T07:54:55Z",
     "category": "simulation",
     "landingProjectId": "leo"
   },
@@ -590,7 +602,7 @@ export const GITHUB_REPOS: GitHubRepo[] = [
     "language": "TypeScript",
     "private": false,
     "archived": false,
-    "updatedAt": "2026-07-26T06:31:44Z",
+    "updatedAt": "2026-07-26T08:25:08Z",
     "category": "web-apps",
     "landingProjectId": null
   },
@@ -705,7 +717,8 @@ export const LANDING_REPO_MAP: Record<string, string> = {
   "leo": "leo-orbital-capacity-forecaster",
   "orbitclass": "satellite-orbit-classification-project",
   "ree": "ree-prospectivity-platform",
-  "dei-pmo": "dei-pmo-dashboard"
+  "dei-pmo": "dei-pmo-dashboard",
+  "hashmal": "hashmal-reactor"
 }
 
 export function reposByCategory(category: RepoCategory): GitHubRepo[] {

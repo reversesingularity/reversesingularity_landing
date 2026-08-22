@@ -27,6 +27,7 @@ const LIVE_URLS = {
   'satellite-orbit-classification-project': 'https://orbitclass.reversesingularity.com',
   'ree-prospectivity-platform': 'https://ree.reversesingularity.com',
   'dei-pmo-dashboard': 'https://dei-pmo.reversesingularity.com',
+  'hashmal-reactor': 'https://hashmal.reversesingularity.com',
   'phobetron_web_app': 'https://phobetronwebapp-production-d69a.up.railway.app',
   'stone-sceptre-website': 'https://reversesingularity.github.io/stone-sceptre-website/',
   'reversesingularity_landing': 'https://reversesingularity.com',
@@ -45,6 +46,7 @@ const LANDING_REPO_MAP = {
   orbitclass: 'satellite-orbit-classification-project',
   ree: 'ree-prospectivity-platform',
   'dei-pmo': 'dei-pmo-dashboard',
+  hashmal: 'hashmal-reactor',
 }
 
 const CATEGORY_RULES = [
@@ -102,6 +104,7 @@ function inferDescription(name, description) {
     'super-claude': 'Claude Code harness and automation utilities.',
     'ai-engineer-for-developers-course': 'AI engineering course materials.',
     'olanzapine-ml-framework': 'ML framework research project.',
+    'hashmal-reactor': 'Conceptual design studio for the Hashmal Energy Reactor — paper, HER-0 blueprint, and orbitable 3D vessel.',
   }
 
   return inferred[name] ?? ''

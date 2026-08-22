@@ -185,6 +185,19 @@ export const PROJECTS: Project[] = [
     status: 'live',
   },
   {
+    id: 'hashmal',
+    title: 'Hashmal Energy Reactor',
+    subtitle: 'Conceptual Design Studio',
+    description:
+      'PhD-level conceptual design studio for the Hashmal Energy Reactor — paper, HER-0 hardware blueprint, and an orbitable 3D vessel with stepped dais, Hashmal eye, and six Pluma nodes on photonic beams. Interactive Chash–Mal–Mal cycle lab, vessel layers, swarm grid, and TRL roadmap.',
+    icon: '⚡',
+    accent: 'amber',
+    tags: ['React', 'Three.js', 'TanStack', 'Physics'],
+    url: 'https://hashmal.reversesingularity.com',
+    repoUrl: 'https://github.com/reversesingularity/hashmal-reactor',
+    status: 'live',
+  },
+  {
     id: 'future',
     title: 'Next Project',
     subtitle: 'In Development',
